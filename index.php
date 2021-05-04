@@ -102,7 +102,7 @@ $database=[
 
                 <ul>
                 <?php 
-                    foreach ($database as $key => $value) {
+                    foreach ($database as $value) {
                         echo "<li>
                                 <h2> ".$value['domanda']."</h2>
                                 <p>".$value['risposta']."</p>
